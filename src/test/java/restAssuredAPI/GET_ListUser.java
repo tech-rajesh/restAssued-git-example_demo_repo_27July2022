@@ -22,7 +22,7 @@ public class GET_ListUser {
 			get("/api/users?page=2").
 			
 		then().
-			statusCode(200).
+			statusCode(201).
 			log().all();
 		
 		
